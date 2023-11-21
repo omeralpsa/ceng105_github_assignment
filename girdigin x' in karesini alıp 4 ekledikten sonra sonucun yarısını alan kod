@@ -12,10 +12,13 @@ int main() {
     double kare = sayi * sayi;
 
     // Kare değerine 4 ekle
-    double sonuc = kare + 4;
+    double sonuc1 = kare + 4;
+
+    // Sonucu ikiye böl
+    double sonuc2 = sonuc1 / 2;
 
     // Sonucu ekrana yazdır
-    printf("Girdiginiz sayinin karesine 4 eklenmis hali: %.2f\n", sonuc);
+    printf("Girdiginiz sayinin karesine 4 eklenmis ve sonucu ikiye bolunmus hali: %.2f\n", sonuc2);
 
     return 0;
 }
