@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    // Kullanıcıdan bir sayı al
+    printf("Bir sayi girin: ");
+    
+    double sayi;
+    // Kullanıcının girdiği sayıyı oku
+    scanf("%lf", &sayi);
+
+    // Sayının karesini hesapla
+    double kare = sayi * sayi;
+
+    // Sonucu ekrana yazdır
+    printf("Girdiginiz sayinin karesi: %.2f\n", kare);
+
+    return 0;
+}
