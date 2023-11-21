@@ -3,7 +3,7 @@
 int main() {
     // Kullanıcıdan bir sayı al
     printf("Bir sayi girin: ");
-    
+
     double sayi;
     // Kullanıcının girdiği sayıyı oku
     scanf("%lf", &sayi);
@@ -11,8 +11,11 @@ int main() {
     // Sayının karesini hesapla
     double kare = sayi * sayi;
 
+    // Kare değerine 4 ekle
+    double sonuc = kare + 4;
+
     // Sonucu ekrana yazdır
-    printf("Girdiginiz sayinin karesi: %.2f\n", kare);
+    printf("Girdiginiz sayinin karesine 4 eklenmis hali: %.2f\n", sonuc);
 
     return 0;
 }
